@@ -1,0 +1,117 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.leftNav span img {
+    width: 30px;
+    height: 30px;
+}
+
+.leftNav img {
+    width: 80px;
+    height: 40px;
+}
+
+.video img{
+    display: flex;
+    width: 100%;
+}
+
+.slogan h2,p {
+    display:flex;
+    justify-content: center;
+    font-family: "sofiapro-bold",PingFangSC,sans-serif;;
+    font-weight: 700;
+    margin: 2px;
+}
+
+.slogan h2 {
+    font-size: 48px;;
+}.slogan p {
+    font-size: 20px;
+    color:#000;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header input{
+    background-color: #fe2c55;
+    
+    font-size: 20px;;
+    color: #fff;
+    
+    
+}
+
+.downlink {
+    display: block;
+    /* width: 50%; */
+}
+footer {
+    background-color: #000;
+    margin: 0 auto;
+    /* width: 100%; */
+    display: block;
+    text-align: center;
+    color: #fff;
+}
+.download {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+   
+    
+    
+}
+
+
+footer .download  p{
+    font-size: 7.7px;
+    /* display: inline-block; */
+}
+
+footer .download h2 {
+    font-size: 20px;
+}
+
+
+footer #lists img{
+    filter: invert(100%);
+    color: #fff;
+    width: 80px;
+    height: 45px;
+}
+footer #lists{
+    color: #fff;
+    width: 100%;
+    display:flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-start; */
+    /* align-content: flex-start; */
+ 
+
+    
+    
+    
+    
+    
+}
+
+footer #lists ul,a,h3 {
+    /* font-size: 1px;; */
+    
+    display: block;
+    float: left;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+footer .copyRights {
+    font-size: 10px;;
+    margin: 0 auto;;
+    display: flex;
+    justify-content: space-between;
+} 
